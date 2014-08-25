@@ -10,7 +10,8 @@
 class ADE7880{
   public:
     ADE7880(int _CS);
-    
+     
+    void begin();
     //Later in private te plaatsen
     unsigned char read8bits(char reg);
     unsigned int read16bits(char reg);
